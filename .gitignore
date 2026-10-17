@@ -1,0 +1,16 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+config.local.php
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Logs and temporary files
+*.log
+*.tmp

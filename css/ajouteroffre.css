@@ -1,0 +1,122 @@
+
+.offre-formcont {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.offre-form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.offre-form-grp {
+    margin-bottom: 24px;
+}
+
+.offre-form-grp label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.offre-form-grp input,
+.offre-form-grp select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.offre-form-grp input:focus,
+.offre-form-grp select:focus {
+    outline: none;
+    border-color: #2e7d32;
+}
+
+.offre-form-grp small {
+    display: block;
+    margin-top: 6px;
+    color: #666;
+    font-size: 12px;
+}
+
+.offre-Errmsg {
+    color: #f44336;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+    min-height: 18px;
+}
+
+.offre-form-buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.offre-btn-submit {
+    flex: 1;
+    padding: 14px;
+    font-size: 16px;
+    background-color: #2e7d32;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.offre-btn-submit:hover {
+    background-color: #1b5e20;
+    transform: scale(1.02);
+}
+
+.offre-btn-reset {
+    flex: 1;
+    padding: 14px;
+    font-size: 16px;
+    background-color: #e0e0e0;
+    color: #666;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.offre-btn-reset:hover {
+    background-color: #bdbdbd;
+}
+
+.success-msg {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.error-msg {
+    background-color: #ffebee;
+    color: #f44336;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .offre-form-row {
+        grid-template-columns: 1fr;
+    }
+}
